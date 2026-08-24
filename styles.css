@@ -414,10 +414,7 @@ p {
   gap: 24px;
   padding: clamp(54px, 7vw, 84px) clamp(20px, 6vw, 78px);
   color: var(--white);
-  background:
-    linear-gradient(rgba(10, 25, 47, 0.88), rgba(10, 25, 47, 0.88)),
-    url("/assets/arc-logo.png") center right 8% / 360px no-repeat,
-    var(--navy);
+  background: var(--navy);
 }
 
 .support-section h2,
@@ -653,7 +650,6 @@ blockquote {
   .support-section {
     align-items: flex-start;
     flex-direction: column;
-    background-size: 260px;
   }
 }
 
